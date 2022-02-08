@@ -85,8 +85,7 @@ async def start_(client: Client, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "🇱🇰 Source Code", url="https://t.me/TG_Nsns_999
-"
+                        "🇱🇰 Source Code", url="https://t.me/TG_Nsns_999"
                     )
                 ],
             ]
@@ -114,8 +113,7 @@ async def alive(client: Client, message: Message):
         ]
     )
 
-    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [⭕️ғғɪᴄͣɪͫ͢ꫝ🔥⃝𝐏ᴀꜱɪʏᴀ](https://t.me/TG_Nsns_999
-)\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group's video chat** ❤"
+    alive = f"**Hello {message.from_user.mention()}, i'm {BOT_NAME}**\n\n✨ Bot is working normally\n🍀 My Master: [⭕️ғғɪᴄͣɪͫ͢ꫝ🔥⃝𝐏ᴀꜱɪʏᴀ](https://t.me/TG_Nsns_999)\n✨ Bot Version: `v{__version__}`\n🍀 Pyrogram Version: `{pyrover}`\n✨ Python Version: `{__python_version__}`\n🍀 PyTgCalls version: `{pytover.__version__}`\n✨ Uptime Status: `{uptime}`\n\n**Thanks for Adding me here, for playing video & music on your Group's video chat** ❤"
 
     await message.reply_photo(
         photo=f"{ALIVE_IMG}",
