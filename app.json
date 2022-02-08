@@ -1,16 +1,16 @@
 {
-    "name": "Speeder Music Stream Bot",
+    "name": "Songs Hut Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
-    "logo": "https://telegra.ph/file/1c41ded2dd871eb36bd7e.png",
+    "logo": "https://te.legra.ph/file/38fadfcdae89a2ec4f35e.jpg",
     "keywords": [
         "pytgcalls",
         "telegram bot",
         "video stream",
         "pyrogram"
     ],
-    "website": "https://t.me/SLEHIGROUP",
-    "repository": "https://github.com/Shaviya12/Speeder",
-    "success_url": "https://t.me/WhiteDevilOp999",
+    "website": "https://t.me/Songs_Hut",
+    "repository": "https://github.com/MASTER-TG/Speeder",
+    "success_url": "https://t.me/TG_Nsns_999",
     "env": {
         "API_ID": {
             "description": "your API_ID from my.telegram.org",
