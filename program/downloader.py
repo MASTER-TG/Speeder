@@ -60,9 +60,7 @@ def song(_, message):
             info_dict = ydl.extract_info(link, download=False)
             audio_file = ydl.prepare_filename(info_dict)
             ydl.process_info(info_dict)
-        rep = f"**🔥🎶මෙන්න ඔයා ඉල්ලපු සින්දුව 🤗🤍
-⚡️Uploaded By - {bn}
-☘️✨🌸✨🌸✨🌸✨☘️**"
+        rep = f"**🔥🎶මෙන්න ඔයා ඉල්ලපු සින්දුව 🤗🤍 ⚡️Uploaded By - {bn} ☘️✨🌸✨🌸✨🌸✨☘️**"
         secmul, dur, dur_arr = 1, 0, duration.split(":")
         for i in range(len(dur_arr) - 1, -1, -1):
             dur += int(float(dur_arr[i])) * secmul
